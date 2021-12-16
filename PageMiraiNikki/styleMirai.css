@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100&family=Dancing+Script:wght@400;600&display=swap');
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Adven Pro' , sans-serif; 
+    padding: 0;
+    margin: 0;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style-type: none;
+
+}
+h2 {
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 2em;
+}
+a {
+    text-decoration: none;
+    color: black
+}
+/* ************************* NAVBAR ******************** */
+
+nav {
+    overflow: hidden;
+    background-color: #6865f5;
+    position: fixed;
+    width: 100%;
+    opacity: 0.9;
+    
+    
+}
+header li {
+    float: right;
+    font-size: 1.2em;
+}
+header li a {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 18px 16px;
+    color: rgb(255, 255, 255);
+}
+#logo{
+    font-family: 'Dancing Script' ;
+    font-weight: bold;
+    float: left
+}
+/* ****************** IMAGE ***************** */
+
+#imagePrincipale{   
+    padding-top: 60px;
+    background: url(img/mirai3.jpg) no-repeat fixed 50% 50%;
+    background-size: cover;
+    height: 799px;
+}
+h1 {
+    font-family: 'Dancing Script';
+    color: #6865f5;
+    text-align: center;
+    text-shadow: 10px 11px 1px black;
+    font-size: 6em;
+    margin-top: 110px;
+}
+#premierTrait {
+    height: 1px;
+    box-shadow: 3px 3px 1px black;
+    width: 25%;
+    margin: -3px auto;
+    background-color: #6865f5;
+}
+
+h3 {
+    text-align: center;
+    color: #6865f5;
+    text-shadow: 10px 11px 1px black;
+    font-size: 3em;
+}
+
+/* ******************* PRESENTATION ******************** */
+
+#presentation {
+    background-color: #6865f5;
+    padding:  10px 0px 100px 0;
+    color: aliceblue;
+}
+#textIntro {
+    padding:  0px 20px;
+}
+#Presations {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px 10px;
+}
+#Presations h4 {
+    font-family:  'Dancing Script' 'cursive';
+    text-align: center;
+    font-size: 1.8em;
+    margin: 15px;
+    font-weight: 300;
+}
+#Presations img {
+    border-radius: 10px;
+    box-shadow: 5px 7px 3px 2px rgba(0, 0, 0, 0.63);
+}
+#Presations img:hover {
+    opacity: 0.8;
+    transform: scale(1.05);
+    transition: 0.6 ease ease-in-out;
+}
+
+/* ****************** TANT A DECOUVRIR ********************* */
+
+#tourisme {
+    height: 1400px;
+    background-color: rgb(255, 255, 255);
+    padding: 1px 2%;
+    color: rgb(0, 0, 0);
+}
+#tourisme h2 {
+    padding-top: 60px;
+}
+#tourisme a {
+    height: 45px;
+    width: 235px;
+    background-color: #FFFAE1;
+    float: right;
+    margin: 50px -180px 0 0;
+    font-size: 1.5em;
+    text-align: center;
+    padding-top:  15px;
+    box-shadow: 4px 4px 0 1px rgba(90.161.43.1)
+    
+    
+   
+
+}
+#class{
+    background:  url(img/tome1.jpg);
+}
+#ghibli{
+    background:  url(img/tome2.jpg);
+}
+#nikki{
+    background:  url(img/tome3.jpg);
+}
+#berserk{
+    background:  url(img/tome4.jpg);
+}
+#tourisme li {
+    margin: 65px 100px 0 100px; 
+    height: 300px;
+    width: 55%;
+    max-width: 400px;
+    float: left;
+    box-shadow: 6px 6px 28px -1px rgba(0, 0, 0, 0.75);
+    border-radius: 10px;
+}
+#tourisme a:hover{
+    background-color: #6865f5;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: 0.5 ease-in-out;
+}
+#tourisme a{
+    height: 45px;
+    width: 235px;
+    background-color:rgb(255, 255, 255);
+    border-radius: 20px;
+    float: right;
+    margin: 50px -180px 0 0;
+    font-size: 1.5em;
+    text-align: center;
+    padding-top:  15px;
+    box-shadow: 4px 4px 0 1px rgba(0, 0, 0, 0.75)
+}
+#tourisme #ghibli, #tourisme #berserk{
+    float: right;
+}
+#ghibli p #berserk p {
+    float: left;
+    background-color: rgb(188, 209, 202);
+    margin-left: -180px;
+    box-shadow: rgba(0, 0, 0, 1);
+}
+
+/* ******************** CONTACTEZ NOUS *************************** */
+
+footer {
+    background-color: rgb(39, 39, 39);
+    color: #FFFAE1;
+    padding: 20px 0 10px 0;
+    text-align: center;
+}
+form {
+    margin: 0 auto;
+    max-width: 900px;
+}
+input, textarea, button {
+    border: none;
+    width: 55%;
+    padding: 15px 10px;
+    margin: 1px 0;
+    font-size: 1.2em;
+    font-family: 'Advent Pro' , sans-serif;
+    border-radius: 8px;
+}
+textarea {
+    height: 120;
+}
+button {
+    font-size: 1.5em;
+    background-color: #FFFAE1;
+}
+button:hover {
+    background-color: #6865f5;
+    color: #FFFAE1;
+    cursor: pointer;
+    transition: 0.3 ease-in-out;
+}
+#DeuxiemeTrait{
+    height: 1px;
+    width: 75%;
+    background-color: #FFFAE1;
+    margin: 60px auto;
+}
+#copyrightEtIcons {
+    display: flex;
+    margin-bottom: 20px;
+    padding: 0 10%;
+}
+#copyright {
+    width: 50%;
+    text-align: left;
+    color: #FFFAE1;
+}
+#icons  {
+    width: 50%;
+   
+}
+#icons a {
+    margin: 0 15px;
+    display: inline-block;
+    font-size: 1.3em;
+    color: #FFFAE1;
+}
+#icons a:hover {
+    transform: scale(1.5);
+    transition: 0.5;
+}
